@@ -1,0 +1,29 @@
+@import "tailwindcss";
+body {
+  font-family: 'Inter', sans-serif;
+  background: url('https://images.unsplash.com/photo-1644325349124-d1756b79dd42?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1475') no-repeat center center fixed;
+  background-size: cover;
+  color: #e2e8f0;
+}
+
+.text-glow {
+  text-shadow: 0 0 8px rgba(11, 17, 108, 0.349),
+               0 0 20px rgba(58, 79, 88, 0.4);
+}
+
+.glass-effect {
+  backdrop-filter: blur(10px);
+  background: rgba(30, 30, 30, 0.6);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.cta-btn:hover {
+  transform: scale(1.05);
+  background-color: #06b6d4;
+  color: #fff;
+  box-shadow: 0 0 15px rgba(56, 189, 248, 0.5);
+}
+
+html {
+  scroll-behavior: smooth;
+}
