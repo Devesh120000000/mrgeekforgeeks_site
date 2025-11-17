@@ -86,15 +86,12 @@ const Contact = () => {
         <div className="mt-12 grid grid-cols-1 md:grid-cols-3 gap-8 text-gray-300 text-center md:text-left">
           <div>
             <h3 className="font-semibold text-cyan-400 mb-2">Email</h3>
-            <p>contact@mrgeekforgeeks.com</p>
+            <p>mrgeeks.com@gmail.com</p>
           </div>
-          <div>
-            <h3 className="font-semibold text-cyan-400 mb-2">Phone</h3>
-            <p>+91 888888888</p>
-          </div>
+    
           <div>
             <h3 className="font-semibold text-cyan-400 mb-2">Location</h3>
-            <p>India</p>
+            <p>Kushinagar</p>
           </div>
         </div>
       </div>

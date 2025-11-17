@@ -51,7 +51,7 @@ const Navbar = () => {
   className="flex items-center space-x-3 cursor-pointer"
   onClick={() => handleClick({ to: "home", type: "scroll" })}
 >
-  <img src="/logo-removebg-preview.png" alt="logo" className="h-16 md:h-20" />
+  <img src="/images/logo-removebg-preview.png" alt="logo" className="h-16 md:h-20" />
   <span className="text-2xl font-bold text-cyan-400 text-glow">
     MR GEEK FOR GEEKS
   </span>

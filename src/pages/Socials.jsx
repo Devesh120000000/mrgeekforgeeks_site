@@ -43,14 +43,7 @@ const Socials = () => (
           <FaInstagram className="text-xl" /> Instagram
         </a>
 
-        <a
-          href="https://www.instagram.com/cyberyoddhabymrgeekforgeeks?igsh=cWNjcWFuem1ucHlj"
-          target="_blank"
-          rel="noreferrer"
-          className="flex items-center gap-2 hover:text-pink-500 font-semibold transition-colors"
-        >
-          <FaInstagram className="text-xl" /> Instagram Page 2
-        </a>
+      
 
         <a
           href="https://whatsapp.com/channel/0029Vat8vfYH5JM4T2IQAu2h"
@@ -67,16 +60,7 @@ const Socials = () => (
           rel="noreferrer"
           className="flex items-center gap-2 hover:text-blue-600 font-semibold transition-colors"
         >
-          <FaFacebook className="text-xl" /> Facebook Page 1
-        </a>
-
-        <a
-          href="https://www.facebook.com/share/1CyGEC5x1h/"
-          target="_blank"
-          rel="noreferrer"
-          className="flex items-center gap-2 hover:text-blue-600 font-semibold transition-colors"
-        >
-          <FaFacebook className="text-xl" /> Facebook Page 2
+          <FaFacebook className="text-xl" /> Facebook Page 
         </a>
 
         <a
